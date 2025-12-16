@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "backend"
@@ -13,6 +14,7 @@
   "author": "pranav tawade",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.11",
     "prettier": "3.7.4"
   }
 }
